@@ -68,6 +68,10 @@
                 top: 100
             }
         });
+        $('#myCarousel').carousel({
+            interval: 3000,
+            cycle: true
+        }); 
     });
 </script>
 
@@ -101,7 +105,10 @@
                         <a class="page-scroll" href="#family">Family</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#invite">Join us</a>
+                        <a class="page-scroll" href="#photos">Photos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#join-us">Join us</a>
                     </li>
                 </ul>
             </div>
@@ -113,7 +120,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <span class="header-text">Hash &amp; Nandini</span>
+                <span class="header-text">Suraj &amp; Nandini</span>
                 <br>
                 <span class="header-subtext">Are tying the knot</span>
                 <span class="header-subtext">03/12/2016</span>
@@ -246,7 +253,7 @@
     </section>
 
     <section id="family">
-        <span class="section-header">Meet the family</span>
+        <span class="section-header">Meet the families</span>
         <div class="row show-grid" style="margin-top:50px;">
             <div class="col-md-4">
                 <img class="img-circle-family" src="img/suraj-dad.jpg">
@@ -273,30 +280,72 @@
         </div>
     </section>
 
-        <section id="family">
+    <section id="photos">
+        <span class="section-header">Photos</span>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:50px;">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/carousel-1.jpg">
+            </div>
+
+            <div class="item">
+              <img src="img/carousel-2.jpg">
+            </div>
+
+            <div class="item">
+              <img src="img/carousel-3.jpg">
+            </div>
+
+            <div class="item">
+              <img src="img/carousel-4.jpg">
+            </div>
+
+            <div class="item">
+              <img src="img/carousel-5.jpg">
+            </div>
+
+            <div class="item">
+              <img src="img/carousel-6.jpg">
+            </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section>
+
+    <section id="join-us">
         <span class="section-header">Join Us</span>
         <div class="row show-grid" style="margin-top:50px;">
-            <div class="col-md-4">
-                <img class="img-circle-family" src="img/suraj-dad.jpg">
-                <h1 class="history-name">Hash Dad</h1>
+            <div class="col-md-6" style="padding:0; background-color:rgb(240, 240, 240);">
+                <h1 class="address-name">EVP Rajeswari Marriage Hall 5</h1>
+                <h1 class="event-name">Reception</h1>
+                <p class="event-name">03/12/2016</p>
+                <hr>
+                <h1 class="event-name">Marriage</h1>
+                <p class="event-name">04/12/2016</p>
+                <hr>
+                <p class="address">No: 3a/145, Kolapakkam Anna Main Road, Samiyarkulam Bus Stop, via Manapakkam MG Road,, Karumariamman Nagar, Kolapakkam, Chennai, Tamil Nadu 600122</p>
             </div>
-            <div class="col-md-4">
-                <img class="img-circle-family" src="img/suraj-mom.jpg">
-                <h1 class="history-name">Hash Mom</h1>
-            </div>
-            <div class="col-md-4">
-                <img class="img-circle-family" src="img/suraj-sister.jpg">
-                <h1 class="history-name">Hash Sister</h1>
-            </div>
-        </div>
-        <div class="row show-grid" style="margin-top:50px;">
-            <div class="col-md-6">
-                <img class="img-circle-family" src="img/nandini-dad.jpg">
-                <h1 class="history-name">Nandini Dad</h1>
-            </div>
-            <div class="col-md-6">
-                <img class="img-circle-family" src="img/nandini-mom.jpg">
-                <h1 class="history-name">Nandini Mom</h1>
+            <div class="col-md-6" style="padding:0">
+                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:600px;width:800px;'></div><div><small><a href="http://www.embedgooglemaps.com">Generate your Google map here, quick and easy!</a></small></div><div><small><a href="https://binaireoptieservaringen.nl/">Wilt u geld verdienen met de handel in binaire opties, maar is het allemaal onduidelijk hoe dit precies werkt, en welke aanbieders betrouwbaar zijn? Lees dan verder op onze site: wij vergelijken aanbieders op betrouwbaarheid en kwaliteit. Zo komt u nooit voor verrassingen te staan. Wij van binaireoptieservaringen.nl helpen u graag!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(13.0114727,80.1585728),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(13.0114727,80.1585728)});infowindow = new google.maps.InfoWindow({content:'<strong>EVP Rajeswari Marriage Hall 5</strong><br>EVP Rajeswari Marriage Hall 5<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
             </div>
         </div>
     </section>

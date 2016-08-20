@@ -57,6 +57,12 @@ h6 {
   margin-left:50px;
 }
 
+.event-name{
+  text-align: center;
+  font-size: 233% !important;
+  font-family: 'Rouge Script', cursive;
+}
+
 .history-name{
   text-align: center;
   font-size: 500% !important;
@@ -71,6 +77,24 @@ h6 {
   display: inherit;
   margin-left:50px;
   margin-right: 25px;
+}
+
+.address{
+  color:#333;
+  font-size: 17px;
+  line-height: 34px;
+  font-family: Georgia,Merriweather,"Times New Roman",Times,serif;
+  display: inherit;
+  margin-left:50px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.address-name{
+  font-family: 'Open Sans', cursive;
+  text-align: center;
+  font-size: 250% !important;
+  font-weight: 500;
 }
 
 .img-circle {
@@ -209,6 +233,12 @@ p {
 
 .navbar-nav>li>a:last{
   padding-right: 0 !important;
+}
+
+.carousel-inner img {
+  margin: auto;
+  width: 50%;
+  height: 50%;
 }
 
 header {
