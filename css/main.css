@@ -69,6 +69,18 @@ h6 {
   font-family: 'Rouge Script', cursive;
 }
 
+.family-name{
+  text-align: center;
+  font-size: 300% !important;
+  font-family: 'Open Sans', cursive;
+}
+
+.relationship-name{
+  text-align: center;
+  font-size: 200% !important;
+  font-family: 'Open Sans', cursive;
+}
+
 .person-description{
   color:#333;
   font-size: 17px;
